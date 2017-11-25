@@ -21,7 +21,7 @@ TxtType.prototype.tick = function() {
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
     var that = this;
-    var delta = 200 - Math.random() * 150;
+    var delta = 200 - Math.random() * 550;
 
     if (this.isDeleting) { delta /= 15; }
 
