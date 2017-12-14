@@ -959,6 +959,10 @@ a.btn:hover {
   background: #e8e8e8;
 }
 
+.spinner {
+  text-align: center;
+}
+
 /* Cursor style animation */
 .typewrite{
   color: #fff;
