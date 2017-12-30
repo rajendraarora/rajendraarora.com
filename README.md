@@ -1,6 +1,7 @@
 [Rajendra Arora][1]
 ========================
 
-[![Build Status](https://travis-ci.org/rajendraarora/rajendraarora.com.svg?branch=master)](https://travis-ci.org/rajendraarora/rajendraarora.com)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com//rajendraarora/rajendraarora.com/issues)
+[![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/rajendraarora/rajendraarora.com "JavaScript The Good Parts")
 
   [1]: https://www.rajendraarora.com/
