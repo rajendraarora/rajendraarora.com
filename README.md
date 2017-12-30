@@ -1,6 +1,6 @@
 [Rajendra Arora][1]
 ========================
 
-[![Build Status](https://travis-ci.org/rajendraarora/rajendraarora.com.svg?branch=master)](https://travis-ci.org/rajendraarora/rajendraarora.com)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://www.rajendraarora.com)
 
   [1]: https://www.rajendraarora.com/
