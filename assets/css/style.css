@@ -729,6 +729,13 @@ a.btn:hover {
 .footer .container a {
   color: #8a8a8a;
 }
+
+@media (max-width: 768px) {
+  .sticky-notes {
+    display: none;
+  }
+}
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header .social {
