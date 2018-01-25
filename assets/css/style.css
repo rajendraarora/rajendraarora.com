@@ -181,7 +181,7 @@ a.btn:hover {
   position: relative;
   padding-top: 15px;
   padding-bottom: 10px;
-  height: 270px;
+  height: 230px;
 }
 .header .social {
   margin-bottom: 0;
@@ -453,6 +453,9 @@ a.btn:hover {
 }
 .timeline .job-desc {
   color: #666;
+}
+.timeline .job-desc ul li {
+  list-style: square;
 }
 .education-section .item {
   margin-bottom: 45px;
@@ -998,6 +1001,8 @@ a.btn:hover {
 }
 .right {
   float: right;
+  z-index: 1;
+  position: relative;
 }
 @media only screen and (max-width: 500px) and (min-width: 200px) {
   .right {
@@ -1060,6 +1065,10 @@ a.btn:hover {
 }
 .typewrite:hover{
   text-decoration: none;
+}
+
+.achievement-section .intro .dialog ul li {
+  list-style: square;
 }
 
 /* The typing effect */
