@@ -181,7 +181,7 @@ a.btn:hover {
   position: relative;
   padding-top: 15px;
   padding-bottom: 10px;
-  height: 230px;
+  height: 195px;
 }
 .header .social {
   margin-bottom: 0;
@@ -731,12 +731,6 @@ a.btn:hover {
 }
 .footer .container a {
   color: #8a8a8a;
-}
-
-@media (max-width: 768px) {
-  .sticky-notes {
-    display: none;
-  }
 }
 
 /* Extra small devices (phones, less than 768px) */
