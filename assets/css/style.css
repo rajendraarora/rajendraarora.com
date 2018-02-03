@@ -1033,7 +1033,15 @@ a.btn:hover {
   float: left;
   font-size: 20px;
 }
+.blog-icon-ext {
+  float: left;
+  font-size: 20px;
+}
 .chrome-text-ext {
+  float: right;
+  padding-top: 6px;
+}
+.blog-text-ext {
   float: right;
   padding-top: 6px;
 }
