@@ -181,7 +181,7 @@ a.btn:hover {
   position: relative;
   padding-top: 15px;
   padding-bottom: 10px;
-  height: 230px;
+  height: 195px;
 }
 .header .social {
   margin-bottom: 0;
@@ -733,12 +733,6 @@ a.btn:hover {
   color: #8a8a8a;
 }
 
-@media (max-width: 768px) {
-  .sticky-notes {
-    display: none;
-  }
-}
-
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header .social {
@@ -1091,4 +1085,20 @@ a.btn:hover {
   50% { border-color: white }
 }
 
+.download-resume{
+  text-align: center;
+  font-size: 50px;
+}
 
+.download-resume a{
+  color: #333333;
+}
+
+.download-resume a:hover{
+  color: #D04848;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out
+}
