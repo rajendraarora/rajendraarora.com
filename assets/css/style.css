@@ -70,6 +70,7 @@ a.btn:hover {
 .top-bar .right ul{
   overflow:hidden;
   padding:3em;
+  float: right;
 }
 .top-bar .right ul li a{
   text-decoration:none;
@@ -181,7 +182,7 @@ a.btn:hover {
   position: relative;
   padding-top: 15px;
   padding-bottom: 10px;
-  height: 195px;
+  height: 230px;
 }
 .header .social {
   margin-bottom: 0;
@@ -731,6 +732,12 @@ a.btn:hover {
 }
 .footer .container a {
   color: #8a8a8a;
+}
+
+@media (max-width: 768px) {
+  .sticky-notes {
+    display: none;
+  }
 }
 
 /* Extra small devices (phones, less than 768px) */
