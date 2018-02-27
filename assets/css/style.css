@@ -70,6 +70,7 @@ a.btn:hover {
 .top-bar .right ul{
   overflow:hidden;
   padding:3em;
+  float: right;
 }
 .top-bar .right ul li a{
   text-decoration:none;
@@ -1033,7 +1034,15 @@ a.btn:hover {
   float: left;
   font-size: 20px;
 }
+.blog-icon-ext {
+  float: left;
+  font-size: 20px;
+}
 .chrome-text-ext {
+  float: right;
+  padding-top: 6px;
+}
+.blog-text-ext {
   float: right;
   padding-top: 6px;
 }
@@ -1083,4 +1092,20 @@ a.btn:hover {
   50% { border-color: white }
 }
 
+.download-resume{
+  text-align: center;
+  font-size: 50px;
+}
 
+.download-resume a{
+  color: #333333;
+}
+
+.download-resume a:hover{
+  color: #D04848;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out
+}
