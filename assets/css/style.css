@@ -738,6 +738,10 @@ a.btn:hover {
   .sticky-notes {
     display: none;
   }
+  
+  .left-sticky {
+    display: none;
+  }
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -1108,4 +1112,12 @@ a.btn:hover {
   -ms-transition: all .2s ease-out;
   -o-transition: all .2s ease-out;
   transition: all .2s ease-out
+}
+
+.left-sticky{
+  margin-top: 35px;
+}
+
+.qr-code img{
+  height: 100px;
 }
