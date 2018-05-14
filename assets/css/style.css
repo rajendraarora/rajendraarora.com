@@ -226,11 +226,15 @@ a.btn:hover {
 }
 .header .profile-image {
   position: absolute;
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   top: -80px;
   margin-left: -80px;
   left: 50%;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
 }
 .header .name {
   font-size: 48px;
@@ -738,6 +742,10 @@ a.btn:hover {
   .sticky-notes {
     display: none;
   }
+  
+  .left-sticky {
+    display: none;
+  }
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -1108,4 +1116,12 @@ a.btn:hover {
   -ms-transition: all .2s ease-out;
   -o-transition: all .2s ease-out;
   transition: all .2s ease-out
+}
+
+.left-sticky{
+  margin-top: 35px;
+}
+
+.qr-code img{
+  height: 100px;
 }
