@@ -738,7 +738,7 @@ a.btn:hover {
   color: #8a8a8a;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .sticky-notes {
     display: none;
   }
@@ -746,6 +746,11 @@ a.btn:hover {
   .left-sticky {
     display: none;
   }
+
+  .right-list-bar {
+    display: none;
+  }
+
 }
 
 /* Extra small devices (phones, less than 768px) */
