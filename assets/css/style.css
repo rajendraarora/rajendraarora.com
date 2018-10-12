@@ -226,8 +226,8 @@ a.btn:hover {
 }
 .header .profile-image {
   position: absolute;
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   top: -80px;
   margin-left: -80px;
   left: 50%;
