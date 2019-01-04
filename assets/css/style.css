@@ -1127,6 +1127,12 @@ a.btn:hover {
   margin-top: 35px;
 }
 
-.qr-code img{
-  height: 100px;
+.stackoverflow-flair .img-flair {
+  border: none!important;
+}
+
+.stackoverflow-flair .img-flair img{
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 }
