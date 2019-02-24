@@ -1136,3 +1136,44 @@ a.btn:hover {
   -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 }
+
+.sliderStyle {
+  width: 100%;
+}
+
+.carousel-control {
+  position: absolute;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.achievementTitle {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+@media (max-width: 800px) {
+  .achievementTitle {
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+
+.newsPaper2 {
+  text-align: center;
+}
+
+.achievementPost {
+  text-align: center;
+}
+
+.newsPost2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.contribute2 {
+  padding-top: 20px;
+}
