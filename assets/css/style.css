@@ -1169,6 +1169,17 @@ a.btn:hover {
   text-align: center;
 }
 
+.achievementPost .scrum-achievement, .achievementPost .news-paper1{
+  width:50%;
+  margin: auto;
+}
+
+.achievementPost .pull-request-icon {
+  height:50%;
+  width:20%;
+  margin: auto;
+}
+
 .newsPost2 {
   text-align: center;
   padding-top: 20px;
