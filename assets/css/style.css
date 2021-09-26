@@ -1093,6 +1093,23 @@ a.btn:hover {
   list-style: square;
 }
 
+.dialog.contribution {
+  text-align: center;
+}
+
+.dialog.contribution .github-stats,
+.dialog.contribution .github-top-lang,
+.dialog.contribution .github-streak {
+  display: inline-block;
+}
+
+.dialog.contribution .github-stats img,
+.dialog.contribution .github-top-lang img,
+.dialog.contribution .github-streak img{
+  width: 200px;
+}
+
+
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
