@@ -1210,3 +1210,130 @@ img.programming-skill-logo {
   height: 40px;
   width: 40px;
 }
+
+/*Recommendation*/
+.recommendation-colleague-photo {
+  border-radius: 50%;
+}
+.section .u-group-1 {
+  width: 636px;
+  min-height: 353px;
+  margin: 60px auto 0;
+  color: #ffffff;
+  background-color: #2692f7;
+}
+
+.section .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-container-layout {
+  position: relative;
+  flex: 1;
+  max-width: 100%;
+  transition-duration: inherit;
+  height: 420px;
+}
+
+.section .u-text-1 {
+  font-size: 1.78rem;
+  margin: 0;
+  font-weight: 700;
+
+}
+
+.section .u-image-1 {
+  width: 80px;
+  height: 80px;
+  background-image: url('./../images/anat_dagan.jpeg');
+  background-size: contain;
+  margin: 20px auto 0 20px;
+}
+
+.section .u-image-2 {
+  width: 80px;
+  height: 80px;
+  background-image: url('./../images/napapan.jpeg');
+  background-size: contain;
+  margin: 20px auto 0 20px;
+}
+
+.section .u-image-3 {
+  width: 80px;
+  height: 80px;
+  background-image: url('./../images/chirag.jpeg');
+  background-size: contain;
+  margin: 20px auto 0 20px;
+}
+
+.section .u-image-4 {
+  width: 80px;
+  height: 80px;
+  background-image: url('./../images/sunsurn.jpeg');
+  background-size: contain;
+  margin: 20px auto 0 20px;
+}
+
+.u-image-circle.u-image {
+  border-radius: 50%;
+}
+
+.section .u-text-2 {
+  letter-spacing: 1px;
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+.section .u-text-3 {
+  letter-spacing: 0px;
+  font-size: 1.325rem;
+  font-weight: 500;
+}
+
+.u-recommendation-container {
+  display: block;
+  width: 300px;
+  height: 160px;
+  margin: 20px auto;
+}
+
+@media only screen and (max-width: 580px) and (min-width: 200px) {
+  .section .u-text-2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
+
+.u-container-layout {
+  color: #ffffff;
+  background-color: #6a6a6a;
+}
+
+.recommendation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.r-image-container {
+  display: block;
+  float: left;
+}
+
+.r-info {
+  display: block;
+  float: left;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 580px) and (min-width: 200px) {
+  .r-info {
+    padding-left: 10px;
+  }
+}
+
+.recommendation-anchor, .recommendation-anchor:hover, .recommendation-anchor:focus {
+  text-decoration: none;
+  color: #fff;
+}
