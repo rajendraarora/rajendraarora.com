@@ -1237,7 +1237,7 @@ img.programming-skill-logo {
 
 @media only screen and (max-width: 580px) and (min-width: 200px) {
   .u-container-layout {
-    height: 600px;
+    height: auto;
   }
 }
 
